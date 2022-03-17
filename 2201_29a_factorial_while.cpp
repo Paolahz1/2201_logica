@@ -16,5 +16,5 @@ i=i+1;
 }
 f=s*N;
 cout<<"Factorial de "<<N <<" es "<< f;
-	return 0;
+return 0;
 }
