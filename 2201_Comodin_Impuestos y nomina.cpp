@@ -19,25 +19,25 @@ int main(int argc, char** argv) {
 		cout<<"\nIngrese su salario semanal: ";
 		cin>>Sal; 
 		Nom=Sal*4;
-		cout<<"Su nomiN es: "<<Nom;
+		cout<<"Su nomina es: "<<Nom;
 				
 		if(Nom>800){
 			imp1=Nom*0.06;
-			cout<<"\nEl impuesto aplicado a su sueldo i1 es de: "<<imp1;
+			cout<<"\nEl impuesto aplicado a su sueldo es de: "<<imp1;
 			i++;
 		}
 		else{
 		
 			if((Nom>700)&&(Nom<=800)){
 				imp2=Nom*0.04;
-				cout<<"\nEl impuesto aplicado a su sueldo es i2 de: "<<imp2;
+				cout<<"\nEl impuesto aplicado a su sueldo es de: "<<imp2;
 				i++;
 			}
 			else{
 			
 			    if(Nom<=700){
 				imp3=Nom*0.02;
-				cout<<"\nEl impuesto aplicado a su sueldo i3 es de: "<<imp3;
+				cout<<"\nEl impuesto aplicado a su sueldo es de: "<<imp3;
 				i++;
 			    }
 			}
