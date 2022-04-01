@@ -10,11 +10,12 @@ int N;
 cout<<"Bienvenido a este programa que calcula el factorial de un numero dado\n";
 cout<<"Ingrese un numero: ";
 cin>>N;
+  
 while(i!=N){
-s=s*i;
-i=i+1;
-}
-f=s*N;
+  s=s*i;
+  i=i+1;
+ }
+ f=s*N;
 cout<<"Factorial de "<<N <<" es "<< f;
 return 0;
 }
