@@ -59,6 +59,5 @@ int main(int argc, char** argv) {
 	cout<<"\nIngrese 1 si desea otro mes: ";
 	cin>>otro;
 }while(otro==1);
-	
 	return 0;
 }
