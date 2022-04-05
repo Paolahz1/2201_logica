@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
 	int N;
 	int p;
 	
-	cout<<"Bienvenido a este programa que calcula el promedio de una cantidad de números\n";
+	cout<<"Bienvenido a este programa que calcula el promedio de una cantidad de nÃºmeros\n";
 	cout<<"Ingrese la cantidad de numeros que desee: ";
 	cin>>N;
 	
