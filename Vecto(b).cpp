@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int numero[15], s=0 ;
+	
+	for(int i=1;i<=15;i++){
+	cout<<"Ingrese un numero: ";
+	cin>>numero[i];
+	}
+	for(int i=1;i<=15;i++){	
+	
+		if(i%3==0){
+			s=s+numero[i]; //Se suma lo que está en el puesto múltiplo de 3	
+			cout<<"["<<i<<"]"<<"Multiplo de 3"<<endl;
+		}	
+	}
+		cout<<"Suma es: "<<s;
+	return 0;
+}
