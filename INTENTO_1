@@ -11,25 +11,22 @@ int main(int argc, char** argv) {
 	cin>>n;
 	int numero[n];
 	
-	for(int i=0;i<=n;i++){
-	cout<<"Ingrese un numero: ";
+	for(int i=1;i<=n;i++){
+	cout<<"Ingrese un numero: "<<endl;
 	cin>>numero[i];
 	}
-	for(int i=0;i<=n;i++){
-	cout<<"["<<i<<"]"<<numero[i]<<endl;
-	}
 
-	for(int k=0;k<=n;k++){
+	for(int i=0;i<=n;i++){
 		for(int j=0;j<=n;j++){
-			if(numero[j]>numero[k]){
+			if(numero[j]>numero[i]){
 				aux=numero[j];
-				numero[j]=numero[k];
-				numero[k]=aux;
+				numero[j]=numero[i];
+				numero[i]=aux;
 			}
 		}
 	}
-	for(int i=0;i<=n;i++){
-	cout<<numero[i]<<endl;
+	for(int z=1;z<=n;z++){
+	cout<<"["<<z<<"]"<<numero[z]<<endl;
 	}
 	return 0;
 }
