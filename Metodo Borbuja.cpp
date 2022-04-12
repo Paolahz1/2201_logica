@@ -16,12 +16,12 @@ int main(int argc, char** argv) {
 	cin>>numero[i];
 	}
 
-	for(int i=0;i<=n;i++){
+	for(int k=2;k<=n;k++){
 		for(int j=0;j<=n;j++){
-			if(numero[j]>numero[i]){
+			if(numero[j]>numero[k]){
 				aux=numero[j];
-				numero[j]=numero[i];
-				numero[i]=aux;
+				numero[j]=numero[k];
+				numero[k]=aux;
 			}
 		}
 	}
