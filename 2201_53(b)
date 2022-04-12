@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
 	for(int i=1;i<=15;i++){	
 	
 		if(i%3==0){
-			s=s+numero[i]; //Se suma lo que está en el puesto múltiplo de 3	
+			s=s+numero[i]; //Se suma lo que estÃ¡ en el puesto mÃºltiplo de 3	
 			cout<<"["<<i<<"]"<<"Multiplo de 3"<<endl;
 		}	
 	}
