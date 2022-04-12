@@ -5,9 +5,9 @@ using namespace std;
 int main(int argc, char** argv) {
 	
 /*	int n;
-	cout<<"Ingrese la cantidad de números que desea: ";
+	cout<<"Ingrese la cantidad de nÃºmeros que desea: ";
 	cin>>n;
-	int numero[n+1]; //Crea n cantidad de nuestos más 1+
+	int numero[n+1]; //Crea n cantidad de nuestos mÃ¡s 1+
 */
 	
 	int numero[15];
