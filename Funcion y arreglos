@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+	int num[3];
+	int x;
+int getcnt(int num[x]){
+
+	int vlr; int ttl=0;
+
+	 if(num[x]<4){
+			vlr=15;
+				cout<<"valor de las sillas: "<<vlr;
+			ttl=vlr*num[x]; 
+				cout<<"\nvalor total: "<<ttl;
+			
+		} 
+		else{
+			if(num[x]<8){
+				vlr=12;
+					cout<<"valor de las sillas: "<<vlr;
+				ttl=vlr*num[x]; 
+					cout<<"\nvalor total: "<<ttl;
+			}
+			else{
+				if(num[x]>=8){
+					vlr=10;
+						cout<<"valor de las sillas: "<<vlr;
+					ttl=vlr*num[x]; 
+						cout<<"\n valor total: "<<ttl;
+				}
+			}
+		}
+	}
+
+int main(int argc, char** argv) {
+int t;
+cout<<"Tipo de silla: comedor(1), oficina(2), sala(3): "; 
+cin>>t; 
+switch(t){
+
+	case 1: 
+	int num[3];
+	for(int i=0;i<3;i++){
+	cout<<"\ningrese una cnt de sillas: ";
+	cin>>num[i]
+	getcnt(num[i]);
+
+	case 2: 
+	
+	int vlr; int ttl=0;
+	int num[3];
+	for(int i=0;i<3;i++){
+	cout<<"\ningrese una cnt de sillas: ";
+	cin>>num[i]
+	getcnt(num[i]);
+	
+	case 3: 
+
+	int vlr; int ttl=0;
+	int num[3];
+	for(int i=0;i<3;i++){
+	cout<<"\ningrese una cnt de sillas: ";
+	cin>>num[i]
+	getcnt(num[i]);
+}
+	return 0;
+}
