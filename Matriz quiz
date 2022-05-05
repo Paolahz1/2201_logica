@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std; 
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int A[3][2];
+	int B[3][2];
+	int R[3][3];
+	int F=3, C=2; 
+	int gSum=0;
+	int sum;
+	for(int i=0; i<F;i++ ){
+		sum=0;
+		for(int j=0;j<C;j++){
+			cout<<"Ingrese España "<<"["<<i<<"]"<<"["<<j<<"]"<<" : "; 
+			cin>>A[i][j];
+			cout<<"Ingrese UK "<<"["<<i<<"]"<<"["<<j<<"]"<<" : ";
+			cin>>B[i][j];
+			R[i][j]=A[i][j]+B[i][j];
+			sum=sum+R[i][j];
+			gSum=gSum+R[i][j];
+		}
+		R[i][C]=sum;
+	}
+		for(int i=0; i<F;i++ ){
+		for(int j=0;j<C;j++){
+			cout<<R[i][j]<<" ";
+		}
+	cout<<sum; 
+	cout<<endl;
+	}
+	cout<<gSum;
+		return 0; 
+		
+}
